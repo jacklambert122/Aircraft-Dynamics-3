@@ -26,8 +26,7 @@ Create a linearized model to simplify equations of motion for a Rolling Spider q
 # Questions 2 & 3: Non-Linear Model Vs. Linear Model:
 
 ## Part a.) Deviation of +5 $^{\circ}$ Bank:
-<img src="./Images/LvsNLcase1.jpg" width="49%" />
-<img src="./Images/Bankvs_T.jpg" width="49%"/>
+<img src="./Images/LvsNLcase1.jpg" width="49%" /> <img src="./Images/Bankvs_T.jpg" width="49%"/>
 <br /> <br />
 
 ## Part b.) Deviation of +5 $^{\circ}$ Pitch:

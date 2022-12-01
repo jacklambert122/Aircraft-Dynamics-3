@@ -25,67 +25,52 @@ Create a linearized model to simplify equations of motion for a Rolling Spider q
 
 # Questions 2 & 3: Non-Linear Model Vs. Linear Model:
 
-<style>
-.two-images {
-   width: 49%;
-   margin-right: 5px;
-   display: inline-flex;
-}
-
-.one-image-50p {
-    width:49%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-}
-
-.text-wrapper {
-    float: left; 
-	width: 49%; 
-}
-
-.text-wrapper img { 
-	width: 98%; 
-
-} 
-
-.text-wrapper p { 
-	text-align: center; 
-} 
-
-</style>
+![alt-text-1](./Images/LvsNLcase1.jpg "title-1" =49%x) ![alt-text-2](./Images/Bankvs_T.jpg "title-2" =49%x)
 
 ## Part a.) Deviation of +5 $^{\circ}$ Bank:
+<div width="49%" margin-right="5px" display="inline-flex">
 <img class="two-images" src="./Images/LvsNLcase1.jpg" alt="" />
 <img class="two-images" src="./Images/Bankvs_T.jpg" alt="" />
+</div>
 <br /> <br />
 
 ## Part b.) Deviation of +5 $^{\circ}$ Pitch:
+<div width="49%" margin-right="5px" display="inline-flex">
 <img class="two-images" src="./Images/LvsNLcase2.jpg" alt=""/>
 <img class="two-images" src="./Images/Thetavs_T.jpg" alt=""/>
 <br /> <br />
 
 ## Part c.) Deviation of +5 $^{\circ}$ Azimuth:
+<div width="49%" margin-right="5px" display="inline-flex">
 <img class="two-images" src="./Images/LvsNLcase3.jpg" alt=""/>
 <img class="two-images" src="./Images/PsivsT.jpg" alt=""/>
 <br /> <br />
 
 ## Part d.) Deviation of $+ 0.1 \frac{rad}{s}$ Roll Rate:
+<div width="49%" margin-right="5px" display="inline-flex">
 <img class="two-images" src="./Images/LvsNLcase4.jpg" alt=""/>
 <img class="two-images" src="./Images/RollRateVsTComp.jpg" alt=""/>
+
+<div width="49%" display="block" margin-left="auto" margin-right="auto" max-width="100%">
 <img class="one-image-50p" src="./Images/Bankvs_TCase4.jpg" alt=""/>
+
 <br /> <br />
 
 ## Part e.) Deviation of $+ 0.1 \frac{rad}{s}$ Pitch Rate:
+<div width="49%" margin-right="5px" display="inline-flex">
 <img class="two-images" src="./Images/LvsNLcase5.jpg" alt=""/>
 <img class="two-images" src="./Images/PRvsTComp.jpg" alt=""/>
+
+<div width="49%" display="block" margin-left="auto" margin-right="auto" max-width="100%">
 <img class="one-image-50p" src="./Images/PitchvsTCase5.jpg" alt=""/>
 <br /> <br />
 
 ## Part f.) Deviation of $+ 0.1 \frac{rad}{s}$ Yaw Rate:
+<div width="49%" margin-right="5px" display="inline-flex">
 <img class="two-images" src="./Images/LvsNLcase6.jpg" alt=""/>
 <img class="two-images" src="./Images/YawVsTimeComp.jpg" alt=""/>
+
+<div width="49%" display="block" margin-left="auto" margin-right="auto" max-width="100%">
 <img class="one-image-50p" src="./Images/AzimuthvsTcase6.jpg" alt=""/>
 <br /> <br />
 
@@ -101,20 +86,29 @@ When comparing variations in parameters of the linear model to the non-linear mo
 # Feedback Control:
 
 ## Deviation of $+ 0.1 \frac{rad}{s}$ Roll Rate:
+<div width="49%" margin-right="5px" display="inline-flex">
 <img class="two-images" src="./Images/DistvsRoll.jpg" alt=""/>
 <img class="two-images" src="./Images/BankvsT.jpg" alt=""/>
+
+<div width="49%" display="block" margin-left="auto" margin-right="auto" max-width="100%">
 <img class="one-image-50p" src="./Images/RollRatevsT.jpg" alt=""/>
 <br /> <br />
 
 ## Deviation of $+ 0.1 \frac{rad}{s}$ Pitch Rate:
+<div width="49%" margin-right="5px" display="inline-flex">
 <img class="two-images" src="./Images/distvsPitch.jpg" alt=""/>
 <img class="two-images" src="./Images/PitchvsT.jpg" alt=""/>
+
+<div width="49%" display="block" margin-left="auto" margin-right="auto" max-width="100%">
 <img class="one-image-50p" src="./Images/PitchRatevT.jpg" alt=""/>
 <br /> <br />
 
 ## Deviation of $+ 0.1 \frac{rad}{s}$ Yaw Rate:
+<div width="49%" margin-right="5px" display="inline-flex">
 <img class="two-images" src="./Images/AC_3_3_f.jpg" alt=""/>
 <img class="two-images" src="./Images/AzimuthvsT.jpg" alt=""/>
+
+<div width="49%" display="block" margin-left="auto" margin-right="auto" max-width="100%">
 <img class="one-image-50p" src="./Images/YawRatevsT.jpg" alt=""/>
 <br /> <br />
 
@@ -123,14 +117,16 @@ When a feedback control is implemented on the rotational rates, the trajectory o
 
 ## Rotational Motion Comparison:
 
-<div class="text-wrapper" >
-    <img src="./Images/ACHW3Drone1.jpg" alt="" />
-    <p> With Control Feedback </p>
+<div float="left" width="49%" >
+<img width="98%" src="./Images/ACHW3Drone1.jpg" alt="" />
+<p text-align="center"> With Control Feedback </p>
 </div>
-<div class="text-wrapper" >
-    <img src="./Images/AircraftRotation.jpg" alt="" />
-    <p> Without Control Feedback </p>
+
+<div class=float="left" width="49%" >
+<img width="98%" src="./Images/AircraftRotation.jpg" alt="" />
+<p text-align="center"> Without Control Feedback </p>
 </div>
+
 <div style="clear:left;"></div>
 
 <br /> 
@@ -138,14 +134,16 @@ When a feedback control is implemented on the rotational rates, the trajectory o
 
 ## Translational Motion Comparison:
 
-<div class="text-wrapper" >
-    <img src="./Images/ACHW3Drone2.jpg" alt="" />
-    <p> With Control Feedback </p>
+<div class=float="left" width="49%" >
+<img width="98%" src="./Images/ACHW3Drone2.jpg" alt="" />
+<p text-align="center"> With Control Feedback </p>
 </div>
-<div class="text-wrapper" >
-    <img src="./Images/AircraftTranslation.jpg" alt="" />
-    <p> Without Control Feedback </p>
+
+<div class=float="left" width="49%" >
+<img width="98%" src="./Images/AircraftTranslation.jpg" alt="" />
+<p > Without Control Feedback </p>
 </div>
+
 <div style="clear:left;"></div>
 
 <br />

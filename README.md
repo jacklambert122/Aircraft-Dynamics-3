@@ -30,32 +30,32 @@ Create a linearized model to simplify equations of motion for a Rolling Spider q
 <br /> <br />
 
 ## Part b.) Deviation of +5 $^{\circ}$ Pitch:
-<img src="./Images/LvsNLcase2.jpg" width="49%"/>
-<img src="./Images/Thetavs_T.jpg" width="49%"/>
+<img src="./Images/LvsNLcase2.jpg" width="49%"/> <img src="./Images/Thetavs_T.jpg" width="49%"/>
 <br /> <br />
 
 ## Part c.) Deviation of +5 $^{\circ}$ Azimuth:
-<img class="two-images" src="./Images/LvsNLcase3.jpg" alt=""/>
-<img class="two-images" src="./Images/PsivsT.jpg" alt=""/>
+<img src="./Images/LvsNLcase3.jpg" width="49%"/> <img src="./Images/PsivsT.jpg" width="49%"/>
 <br /> <br />
 
 ## Part d.) Deviation of $+ 0.1 \frac{rad}{s}$ Roll Rate:
-<img class="two-images" src="./Images/LvsNLcase4.jpg" alt=""/>
-<img class="two-images" src="./Images/RollRateVsTComp.jpg" alt=""/>
-<img class="one-image-50p" src="./Images/Bankvs_TCase4.jpg" alt=""/>
-
+<img src="./Images/LvsNLcase4.jpg" width="49%"/><img src="./Images/RollRateVsTComp.jpg" width="49%"/>
+<p align="center">
+  <img src="./Images/Bankvs_TCase4.jpg" width="49%"/>
+</p>
 <br /> <br />
 
 ## Part e.) Deviation of $+ 0.1 \frac{rad}{s}$ Pitch Rate:
-<img class="two-images" src="./Images/LvsNLcase5.jpg" alt=""/>
-<img class="two-images" src="./Images/PRvsTComp.jpg" alt=""/>
-<img class="one-image-50p" src="./Images/PitchvsTCase5.jpg" alt=""/>
+<img src="./Images/LvsNLcase5.jpg" width="49%"/><img src="./Images/PRvsTComp.jpg" width="49%"/>
+<p align="center">
+  <img src="./Images/PitchvsTCase5.jpg" width="49%"/>
+</p>
 <br /> <br />
 
 ## Part f.) Deviation of $+ 0.1 \frac{rad}{s}$ Yaw Rate:
-<img class="two-images" src="./Images/LvsNLcase6.jpg" alt=""/>
-<img class="two-images" src="./Images/YawVsTimeComp.jpg" alt=""/>
-<img class="one-image-50p" src="./Images/AzimuthvsTcase6.jpg" alt=""/>
+<img src="./Images/LvsNLcase6.jpg" width="49%"/><img src="./Images/YawVsTimeComp.jpg" width="49%"/>
+<p align="center">
+  <img src="./Images/AzimuthvsTcase6.jpg" width="49%"/>
+</p>
 <br /> <br />
 
 ## Question 2 Analysis:
@@ -70,30 +70,26 @@ When comparing variations in parameters of the linear model to the non-linear mo
 # Feedback Control:
 
 ## Deviation of $+ 0.1 \frac{rad}{s}$ Roll Rate:
-<div width="49%" margin-right="5px" display="inline-flex">
-<img class="two-images" src="./Images/DistvsRoll.jpg" alt=""/>
-<img class="two-images" src="./Images/BankvsT.jpg" alt=""/>
-
-<div width="49%" display="block" margin-left="auto" margin-right="auto" max-width="100%">
-<img class="one-image-50p" src="./Images/RollRatevsT.jpg" alt=""/>
+<img src="./Images/DistvsRoll.jpg" width="49%"/><img src="./Images/BankvsT.jpg" width="49%"/>
+<p align="center">
+  <img src="./Images/RollRatevsT.jpg" width="49%"/>
+</p>
 <br /> <br />
+
 
 ## Deviation of $+ 0.1 \frac{rad}{s}$ Pitch Rate:
-<div width="49%" margin-right="5px" display="inline-flex">
-<img class="two-images" src="./Images/distvsPitch.jpg" alt=""/>
-<img class="two-images" src="./Images/PitchvsT.jpg" alt=""/>
-
-<div width="49%" display="block" margin-left="auto" margin-right="auto" max-width="100%">
-<img class="one-image-50p" src="./Images/PitchRatevT.jpg" alt=""/>
+<img src="./Images/distvsPitch.jpg" width="49%"/><img src="./Images/PitchvsT.jpg" width="49%"/>
+<p align="center">
+  <img src="./Images/PitchRatevT.jpg" width="49%"/>
+</p>
 <br /> <br />
 
-## Deviation of $+ 0.1 \frac{rad}{s}$ Yaw Rate:
-<div width="49%" margin-right="5px" display="inline-flex">
-<img class="two-images" src="./Images/AC_3_3_f.jpg" alt=""/>
-<img class="two-images" src="./Images/AzimuthvsT.jpg" alt=""/>
 
-<div width="49%" display="block" margin-left="auto" margin-right="auto" max-width="100%">
-<img class="one-image-50p" src="./Images/YawRatevsT.jpg" alt=""/>
+## Deviation of $+ 0.1 \frac{rad}{s}$ Yaw Rate:
+<img src="./Images/AC_3_3_f.jpg" width="49%"/><img src="./Images/AzimuthvsT.jpg" width="49%"/>
+<p align="center">
+  <img src="./Images/YawRatevsT.jpg" width="49%"/>
+</p>
 <br /> <br />
 
 When a feedback control is implemented on the rotational rates, the trajectory of the cases with deviations in their initial roll and pitch rates reduces drastically. The feedback controls the rate at which the copter rotates, slowing the roll rate to zero in less than 0.2 seconds. This in turn had an effect of correcting the path of the copter so that it changes position much less. For the case where the yaw rate was changed, the copter still did not displace any distance as it stays fixed about its z-axis in body coordinates. The plots of the yaw rate and azimuth as a function of time shows how the control stops its rotation about this body fixed z axis, even though it has no effect on position it still had an effect on the attitude of the copter.
@@ -101,35 +97,14 @@ When a feedback control is implemented on the rotational rates, the trajectory o
 
 ## Rotational Motion Comparison:
 
-<div float="left" width="49%" >
-<img width="98%" src="./Images/ACHW3Drone1.jpg" alt="" />
-<p text-align="center"> With Control Feedback </p>
-</div>
-
-<div class=float="left" width="49%" >
-<img width="98%" src="./Images/AircraftRotation.jpg" alt="" />
-<p text-align="center"> Without Control Feedback </p>
-</div>
-
-<div style="clear:left;"></div>
-
+<img src="./Images/ACHW3Drone1.jpg" width="49%"/><img src="./Images/AircraftRotation.jpg" width="49%"/>
+<p text-align="center"> With Control Feedback </p><p text-align="center"> Without Control Feedback </p>
 <br /> 
-<br />
 
 ## Translational Motion Comparison:
 
-<div class=float="left" width="49%" >
-<img width="98%" src="./Images/ACHW3Drone2.jpg" alt="" />
-<p text-align="center"> With Control Feedback </p>
-</div>
-
-<div class=float="left" width="49%" >
-<img width="98%" src="./Images/AircraftTranslation.jpg" alt="" />
-<p > Without Control Feedback </p>
-</div>
-
-<div style="clear:left;"></div>
-
+<img src="./Images/ACHW3Drone2.jpg" width="49%"/><img src="./Images/AircraftTranslation.jpg" width="49%"/>
+<p text-align="center"> With Control Feedback </p><p text-align="center"> Without Control Feedback </p>
 <br />
 
 As can be seen from the data the rolling spider's flight lasted much longer after the control law was turned off and the derivative control law was turned on. The effect of having the variations in roll rate, pitch rate, and yaw rate controlled by a feedback showed to keep the angular position and angular rates under control for much longer, as the flight time is seen to last near 13 seconds in comparison to the case that did not have the feedback control lasting roughly 8 seconds. It can also be seen that after the complete control law was turned off the derivative control's inputs actually caused the attitude to 'teeter' back and forth for a moment, improving the stability and thus the time of flight. The feedback control did help with longer flight, however, was limited as the it only corrects changes in rates while proportional control is needed to control changes in positions and attitude (directly at least).  

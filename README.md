@@ -25,52 +25,37 @@ Create a linearized model to simplify equations of motion for a Rolling Spider q
 
 # Questions 2 & 3: Non-Linear Model Vs. Linear Model:
 
-![alt-text-1](./Images/LvsNLcase1.jpg "title-1" =49%x) ![alt-text-2](./Images/Bankvs_T.jpg "title-2" =49%x)
-
 ## Part a.) Deviation of +5 $^{\circ}$ Bank:
-<div width="49%" margin-right="5px" display="inline-flex">
-<img class="two-images" src="./Images/LvsNLcase1.jpg" alt="" />
-<img class="two-images" src="./Images/Bankvs_T.jpg" alt="" />
-</div>
+<img src="./Images/LvsNLcase1.jpg" width="49%" />
+<img src="./Images/Bankvs_T.jpg" width="49%"/>
 <br /> <br />
 
 ## Part b.) Deviation of +5 $^{\circ}$ Pitch:
-<div width="49%" margin-right="5px" display="inline-flex">
-<img class="two-images" src="./Images/LvsNLcase2.jpg" alt=""/>
-<img class="two-images" src="./Images/Thetavs_T.jpg" alt=""/>
+<img src="./Images/LvsNLcase2.jpg" width="49%"/>
+<img src="./Images/Thetavs_T.jpg" width="49%"/>
 <br /> <br />
 
 ## Part c.) Deviation of +5 $^{\circ}$ Azimuth:
-<div width="49%" margin-right="5px" display="inline-flex">
 <img class="two-images" src="./Images/LvsNLcase3.jpg" alt=""/>
 <img class="two-images" src="./Images/PsivsT.jpg" alt=""/>
 <br /> <br />
 
 ## Part d.) Deviation of $+ 0.1 \frac{rad}{s}$ Roll Rate:
-<div width="49%" margin-right="5px" display="inline-flex">
 <img class="two-images" src="./Images/LvsNLcase4.jpg" alt=""/>
 <img class="two-images" src="./Images/RollRateVsTComp.jpg" alt=""/>
-
-<div width="49%" display="block" margin-left="auto" margin-right="auto" max-width="100%">
 <img class="one-image-50p" src="./Images/Bankvs_TCase4.jpg" alt=""/>
 
 <br /> <br />
 
 ## Part e.) Deviation of $+ 0.1 \frac{rad}{s}$ Pitch Rate:
-<div width="49%" margin-right="5px" display="inline-flex">
 <img class="two-images" src="./Images/LvsNLcase5.jpg" alt=""/>
 <img class="two-images" src="./Images/PRvsTComp.jpg" alt=""/>
-
-<div width="49%" display="block" margin-left="auto" margin-right="auto" max-width="100%">
 <img class="one-image-50p" src="./Images/PitchvsTCase5.jpg" alt=""/>
 <br /> <br />
 
 ## Part f.) Deviation of $+ 0.1 \frac{rad}{s}$ Yaw Rate:
-<div width="49%" margin-right="5px" display="inline-flex">
 <img class="two-images" src="./Images/LvsNLcase6.jpg" alt=""/>
 <img class="two-images" src="./Images/YawVsTimeComp.jpg" alt=""/>
-
-<div width="49%" display="block" margin-left="auto" margin-right="auto" max-width="100%">
 <img class="one-image-50p" src="./Images/AzimuthvsTcase6.jpg" alt=""/>
 <br /> <br />
 

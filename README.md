@@ -97,14 +97,16 @@ When a feedback control is implemented on the rotational rates, the trajectory o
 
 ## Rotational Motion Comparison:
 
-<img src="./Images/ACHW3Drone1.jpg" width="49%"/> <img src="./Images/AircraftRotation.jpg" width="49%"/>
-<p text-align="center"> With Control Feedback </p> <p text-align="center"> Without Control Feedback </p>
+| <img src="./Images/ACHW3Drone1.jpg" width="100%"/> | <img src="./Images/AircraftRotation.jpg" width="100%"/> |
+|:---:|:---:|
+| With Control Feedback |  Without Control Feedback |
 <br /> 
 
 ## Translational Motion Comparison:
 
-<img src="./Images/ACHW3Drone2.jpg" width="49%"/> <img src="./Images/AircraftTranslation.jpg" width="49%"/>
-<p text-align="center"> With Control Feedback </p> <p text-align="center"> Without Control Feedback </p>
+| <img src="./Images/ACHW3Drone2.jpg" width="100%"/> | <img src="./Images/AircraftTranslation.jpg" width="100%"/> |
+|:---:|:---:|
+| With Control Feedback |  Without Control Feedback |
 <br />
 
 As can be seen from the data the rolling spider's flight lasted much longer after the control law was turned off and the derivative control law was turned on. The effect of having the variations in roll rate, pitch rate, and yaw rate controlled by a feedback showed to keep the angular position and angular rates under control for much longer, as the flight time is seen to last near 13 seconds in comparison to the case that did not have the feedback control lasting roughly 8 seconds. It can also be seen that after the complete control law was turned off the derivative control's inputs actually caused the attitude to 'teeter' back and forth for a moment, improving the stability and thus the time of flight. The feedback control did help with longer flight, however, was limited as the it only corrects changes in rates while proportional control is needed to control changes in positions and attitude (directly at least).  
